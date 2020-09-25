@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import {Button} from './stories/Button'
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
           <h2> This is sample react app built for picture frame company</h2>
+          <Button primary={true}  label={"Does Nothing"} />
         </p>
       </header>
     </div>
